@@ -2,10 +2,10 @@
 	"name": "forkify_app",
 	"version": "1.0.0",
 	"description": "recipe app",
-	"main": "script.js",
+	"default": "index.html",
 	"scripts": {
 		"start": "parcel index.html",
-		"build": "parcel build index.html"
+		"build": "parcel build index.html --dist-dir ./dist"
 	},
 	"author": "anna",
 	"license": "ISC",
